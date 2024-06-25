@@ -1,3 +1,4 @@
+
 # sistema de requisição
 
 Uma breve descrição sobre o que esse projeto faz e para quem ele é 
@@ -9,6 +10,7 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 - Modo tela cheia
 - Multiplataforma
 
+
 ## Instalação
 
 Instale my-project com npm
@@ -17,6 +19,7 @@ Instale my-project com npm
   npm install my-project
   cd my-project
 ```
+    
 ## Stack utilizada
 
 **Front-end:** html, css, js
@@ -27,3 +30,8 @@ Instale my-project com npm
  ExcelJS, 
  bodyParser, 
  path, 
+
+## Autores
+
+- [@renan frança](https://github.com/renanfranca27)
+
