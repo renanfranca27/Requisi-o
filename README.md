@@ -17,3 +17,13 @@ Instale my-project com npm
   npm install my-project
   cd my-project
 ```
+## Stack utilizada
+
+**Front-end:** html, css, js
+
+**Back-end:** 
+ express,
+ axios ,
+ ExcelJS, 
+ bodyParser, 
+ path, 
