@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Requisição</title>
+</head>
+<body>
+    <div class="top">
+        <img src="image/Logo Alumasa1.jpg" alt="">
+
+    </div>
+    <h2>Formulário de Requisição</h2>
+    <form id="myForm">
+        <label for="hora">Hora:</label>
+        <input type="datetime-local" id="hora" name="hora"><br><br>
+        
+        <label for="solicitante">Solicitante:</label>
+        <input type="text" id="solicitante" name="solicitante"><br><br>
+        
+        <label for="setor">Setor:</label>
+        <input type="text" id="setor" name="setor"><br><br>
+        
+        <label for="op">OP:</label>
+        <input type="text" id="op" name="op"><br><br>
+        
+        <label for="etapa">Etapa:</label>
+        <input type="text" id="etapa" name="etapa"><br><br>
+        
+        <label for="item">Item:</label>
+        <input type="text" id="item" name="item"><br><br>
+        
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo"><br><br>
+        
+        <label for="tamanho">Tamanho:</label>
+        <input type="text" id="tamanho" name="tamanho"><br><br>
+        
+        <label for="quantidade">Quantidade:</label>
+        <input type="text" id="quantidade" name="quantidade"><br><br>
+        
+        <label for="defeito">Defeito:</label>
+        <input type="text" id="defeito" name="defeito"><br><br>
+        
+        <label for="observacoes">Observações:</label>
+        <input type="text" id="observacoes" name="observacoes"><br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Inclua a biblioteca Axios para fazer requisições HTTP -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Seu script JavaScript para o cliente -->
+    <script src="scripts\client.js"></script>
+</body>
+</html>
